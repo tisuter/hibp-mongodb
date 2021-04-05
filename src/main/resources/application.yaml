@@ -1,0 +1,8 @@
+spring.data.mongodb:
+  port: 27017
+  database: hibp
+
+management:
+  endpoint:
+    health:
+      show-details: always
