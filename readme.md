@@ -29,4 +29,5 @@ If you want to optimize diskspace. You can import data using binary:
 
 ## Testing
 After data is imported in Mongo-DB, start the service and call the ```/api/{hash-prefix}``` endpoint.
+
 e.g. sha1("password") => 5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8 => ```GET localhost/api/5baa6```
