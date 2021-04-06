@@ -6,12 +6,6 @@
 - mongodb-org-tools (for mongo-import)
 
 ## Getting started
-
-mongoimport --db=misc --collection=act-a --type=csv --headerline --file=../2a-Act_A.csv --uri "mongodb://root:example@localhost:27017"
-mongodb://test:testpwd@localhost/test?authSource=admin
-
---uri "mongodb://root:example@localhost:27017"
-
 1. Download HIBP DB from https://haveibeenpwned.com/Passwords
 2. Start mongoDB
 3. Import data:
